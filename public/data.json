@@ -1,0 +1,342 @@
+{
+  "en": {
+    "title": "Our Services",
+    "subtitle": "Discover the wide range of services you can book instantly with our AI-powered platform",
+    "searchPlaceholder": "Search for services...",
+    "filters": "Filters",
+    "viewMore": "View More",
+    "category": "Category",
+    "categories": {
+      "all": "All",
+      "foodDining": "Food & Dining",
+      "beautyWellness": "Beauty & Wellness",
+      "healthcare": "Healthcare",
+      "homeGarden": "Home & Garden",
+      "transportation": "Transportation"
+    },
+    "services": [
+      {
+        "id": 1,
+        "title": "Home Services",
+        "description": "Schedule medical appointments and consultations with ease. Connect with doctors, specialists and healthcare providers in your area.",
+        "rating": 4.9,
+        "reviews": 250,
+        "image": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?q=80&w=800&auto=format&fit=crop",
+        "price": "Starting at $45",
+        "category": "healthcare"
+      },
+      {
+        "id": 2,
+        "title": "Salon Appointments",
+        "description": "Professional beauty services including hair styling, manicures, facials and spa treatments from certified professionals.",
+        "rating": 4.8,
+        "reviews": 200,
+        "image": "https://images.unsplash.com/photo-1503951914875-452162b0f3f1?q=80&w=800&auto=format&fit=crop",
+        "price": "Starting at $35",
+        "category": "beautyWellness"
+      },
+      {
+        "id": 3,
+        "title": "Restaurant Booking",
+        "description": "Reserve tables at top restaurants and cafes. Enjoy fine dining experiences with instant confirmation and special offers.",
+        "rating": 4.9,
+        "reviews": 180,
+        "image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?q=80&w=800&auto=format&fit=crop",
+        "price": "Starting at $25",
+        "category": "foodDining"
+      },
+      {
+        "id": 4,
+        "title": "Home Cleaning",
+        "description": "Professional cleaning services for your home. Deep cleaning, regular maintenance and specialized cleaning solutions.",
+        "rating": 4.7,
+        "reviews": 320,
+        "image": "https://images.unsplash.com/photo-1581578731548-c64695cc6952?q=80&w=800&auto=format&fit=crop",
+        "price": "Starting at $60",
+        "category": "homeGarden"
+      },
+      {
+        "id": 5,
+        "title": "Transportation",
+        "description": "Reliable transportation services including taxi, ride-sharing and luxury car rentals for all your travel needs.",
+        "rating": 4.6,
+        "reviews": 150,
+        "image": "https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?q=80&w=800&auto=format&fit=crop",
+        "price": "Starting at $15",
+        "category": "transportation"
+      },
+      {
+        "id": 6,
+        "title": "Spa & Wellness",
+        "description": "Rejuvenating spa treatments, massage therapy and wellness services to refresh your mind and body.",
+        "rating": 4.8,
+        "reviews": 90,
+        "image": "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?q=80&w=800&auto=format&fit=crop",
+        "price": "Starting at $80",
+        "category": "beautyWellness"
+      }
+    ],
+    "additionalServices": [
+      {
+        "id": 7,
+        "title": "Pet Care Services",
+        "description": "Comprehensive pet care including grooming, veterinary services and pet sitting from certified professionals.",
+        "rating": 4.9,
+        "reviews": 210,
+        "image": "https://images.unsplash.com/photo-1601758228041-f3b2795255f1?q=80&w=800&auto=format&fit=crop",
+        "price": "Starting at $40",
+        "category": "healthcare"
+      },
+      {
+        "id": 8,
+        "title": "Event Planning",
+        "description": "Professional event planning services for weddings, corporate events and special occasions.",
+        "rating": 4.8,
+        "reviews": 130,
+        "image": "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?q=80&w=800&auto=format&fit=crop",
+        "price": "Starting at $200",
+        "category": "homeGarden"
+      },
+      {
+        "id": 9,
+        "title": "Personal Training",
+        "description": "One-on-one fitness training sessions with certified personal trainers to achieve your health goals.",
+        "rating": 4.7,
+        "reviews": 180,
+        "image": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?q=80&w=800&auto=format&fit=crop",
+        "price": "Starting at $50",
+        "category": "beautyWellness"
+      },
+      {
+        "id": 10,
+        "title": "Food Delivery",
+        "description": "Fast and reliable food delivery from your favorite restaurants with real-time tracking.",
+        "rating": 4.5,
+        "reviews": 500,
+        "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?q=80&w=800&auto=format&fit=crop",
+        "price": "Starting at $5",
+        "category": "foodDining"
+      },
+      {
+        "id": 11,
+        "title": "Tutoring Services",
+        "description": "Expert tutoring in various subjects from qualified educators for students of all ages.",
+        "rating": 4.9,
+        "reviews": 95,
+        "image": "https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?q=80&w=800&auto=format&fit=crop",
+        "price": "Starting at $30",
+        "category": "healthcare"
+      },
+      {
+        "id": 12,
+        "title": "Home Repairs",
+        "description": "Professional home repair and maintenance services including plumbing, electrical and general repairs.",
+        "rating": 4.6,
+        "reviews": 240,
+        "image": "https://images.unsplash.com/photo-1504148455328-c376907d081c?q=80&w=800&auto=format&fit=crop",
+        "price": "Starting at $75",
+        "category": "homeGarden"
+      },
+      {
+        "id": 13,
+        "title": "Car Rental",
+        "description": "Affordable car rentals for short and long-term needs with a wide selection of vehicles.",
+        "rating": 4.4,
+        "reviews": 300,
+        "image": "https://images.unsplash.com/photo-1502877338535-766e1452684a?q=80&w=800&auto=format&fit=crop",
+        "price": "Starting at $25",
+        "category": "transportation"
+      },
+      {
+        "id": 14,
+        "title": "Photography",
+        "description": "Professional photography services for events, portraits and commercial projects.",
+        "rating": 4.8,
+        "reviews": 120,
+        "image": "https://images.unsplash.com/photo-1542038784456-1ea8e935640e?q=80&w=800&auto=format&fit=crop",
+        "price": "Starting at $150",
+        "category": "homeGarden"
+      },
+      {
+        "id": 15,
+        "title": "Catering Services",
+        "description": "Premium catering services for all occasions with customizable menus and professional service.",
+        "rating": 4.7,
+        "reviews": 85,
+        "image": "https://images.unsplash.com/photo-1555244162-803834f70033?q=80&w=800&auto=format&fit=crop",
+        "price": "Starting at $100",
+        "category": "foodDining"
+      }
+    ]
+  },
+  "de": {
+    "title": "Unsere Dienstleistungen",
+    "subtitle": "Entdecken Sie die große Auswahl an Services, die Sie sofort über unsere KI-gestützte Plattform buchen können",
+    "searchPlaceholder": "Nach Services suchen...",
+    "filters": "Filter",
+    "viewMore": "Mehr anzeigen",
+    "category": "Kategorie",
+    "categories": {
+      "all": "Alle",
+      "foodDining": "Essen & Gastronomie",
+      "beautyWellness": "Schönheit & Wellness",
+      "healthcare": "Gesundheitswesen",
+      "homeGarden": "Haus & Garten",
+      "transportation": "Transport"
+    },
+    "services": [
+      {
+        "id": 1,
+        "title": "Haus-Services",
+        "description": "Vereinbaren Sie medizinische Termine und Beratungen mühelos. Verbinden Sie sich mit Ärzten, Spezialisten und Anbietern in Ihrer Nähe.",
+        "rating": 4.9,
+        "reviews": 250,
+        "image": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?q=80&w=800&auto=format&fit=crop",
+        "price": "Ab 45 €",
+        "category": "healthcare"
+      },
+      {
+        "id": 2,
+        "title": "Salon-Termine",
+        "description": "Professionelle Beauty-Services inkl. Haarstyling, Maniküre, Gesichtsbehandlungen und Spa-Angebote von zertifizierten Profis.",
+        "rating": 4.8,
+        "reviews": 200,
+        "image": "https://images.unsplash.com/photo-1503951914875-452162b0f3f1?q=80&w=800&auto=format&fit=crop",
+        "price": "Ab 35 €",
+        "category": "beautyWellness"
+      },
+      {
+        "id": 3,
+        "title": "Restaurant-Reservierung",
+        "description": "Reservieren Sie Tische in Top-Restaurants & Cafés. Feines Essen mit Sofortbestätigung und speziellen Angeboten genießen.",
+        "rating": 4.9,
+        "reviews": 180,
+        "image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?q=80&w=800&auto=format&fit=crop",
+        "price": "Ab 25 €",
+        "category": "foodDining"
+      },
+      {
+        "id": 4,
+        "title": "Hausreinigung",
+        "description": "Professionelle Reinigung: Grundreinigung, laufende Pflege und spezialisierte Lösungen für ein sauberes Zuhause.",
+        "rating": 4.7,
+        "reviews": 320,
+        "image": "https://images.unsplash.com/photo-1581578731548-c64695cc6952?q=80&w=800&auto=format&fit=crop",
+        "price": "Ab 60 €",
+        "category": "homeGarden"
+      },
+      {
+        "id": 5,
+        "title": "Transport",
+        "description": "Zuverlässige Transportdienste: Taxi, Ride-Sharing und Premium-Mietwagen für alle Reisebedürfnisse.",
+        "rating": 4.6,
+        "reviews": 150,
+        "image": "https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?q=80&w=800&auto=format&fit=crop",
+        "price": "Ab 15 €",
+        "category": "transportation"
+      },
+      {
+        "id": 6,
+        "title": "Spa & Wellness",
+        "description": "Regenerierende Spa-Behandlungen, Massagen und Wellness-Angebote zur Erholung von Körper und Geist.",
+        "rating": 4.8,
+        "reviews": 90,
+        "image": "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?q=80&w=800&auto=format&fit=crop",
+        "price": "Ab 80 €",
+        "category": "beautyWellness"
+      }
+    ],
+    "additionalServices": [
+      {
+        "id": 7,
+        "title": "Haustierbetreuung",
+        "description": "Umfassende Betreuung: Pflege, Tierarzt-Services und Pet-Sitting durch qualifizierte Fachkräfte.",
+        "rating": 4.9,
+        "reviews": 210,
+        "image": "https://images.unsplash.com/photo-1601758228041-f3b2795255f1?q=80&w=800&auto=format&fit=crop",
+        "price": "Ab 40 €",
+        "category": "healthcare"
+      },
+      {
+        "id": 8,
+        "title": "Eventplanung",
+        "description": "Professionelle Planung für Hochzeiten, Firmenveranstaltungen und besondere Anlässe – stressfrei & kreativ.",
+        "rating": 4.8,
+        "reviews": 130,
+        "image": "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?q=80&w=800&auto=format&fit=crop",
+        "price": "Ab 200 €",
+        "category": "homeGarden"
+      },
+      {
+        "id": 9,
+        "title": "Personal Training",
+        "description": "Individuelle Fitness-Sessions mit zertifizierten Trainern zur Erreichung Ihrer Gesundheitsziele.",
+        "rating": 4.7,
+        "reviews": 180,
+        "image": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?q=80&w=800&auto=format&fit=crop",
+        "price": "Ab 50 €",
+        "category": "beautyWellness"
+      },
+      {
+        "id": 10,
+        "title": "Essenslieferung",
+        "description": "Schnelle & zuverlässige Lieferung Ihrer Lieblingsgerichte mit Echtzeit-Tracking.",
+        "rating": 4.5,
+        "reviews": 500,
+        "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?q=80&w=800&auto=format&fit=crop",
+        "price": "Ab 5 €",
+        "category": "foodDining"
+      },
+      {
+        "id": 11,
+        "title": "Nachhilfe",
+        "description": "Qualifizierte Nachhilfe in verschiedenen Fächern – für Lernende aller Altersstufen.",
+        "rating": 4.9,
+        "reviews": 95,
+        "image": "https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?q=80&w=800&auto=format&fit=crop",
+        "price": "Ab 30 €",
+        "category": "healthcare"
+      },
+      {
+        "id": 12,
+        "title": "Hausreparaturen",
+        "description": "Fachgerechte Reparatur & Wartung: Sanitär, Elektrik und allgemeine Instandhaltung.",
+        "rating": 4.6,
+        "reviews": 240,
+        "image": "https://images.unsplash.com/photo-1504148455328-c376907d081c?q=80&w=800&auto=format&fit=crop",
+        "price": "Ab 75 €",
+        "category": "homeGarden"
+      },
+      {
+        "id": 13,
+        "title": "Autovermietung",
+        "description": "Flexible Mietwagen für kurz- und langfristige Nutzung mit großer Fahrzeugauswahl.",
+        "rating": 4.4,
+        "reviews": 300,
+        "image": "https://images.unsplash.com/photo-1502877338535-766e1452684a?q=80&w=800&auto=format&fit=crop",
+        "price": "Ab 25 €",
+        "category": "transportation"
+      },
+      {
+        "id": 14,
+        "title": "Fotografie",
+        "description": "Professionelle Fotografie für Events, Portraits und Business-Projekte.",
+        "rating": 4.8,
+        "reviews": 120,
+        "image": "https://images.unsplash.com/photo-1542038784456-1ea8e935640e?q=80&w=800&auto=format&fit=crop",
+        "price": "Ab 150 €",
+        "category": "homeGarden"
+      },
+      {
+        "id": 15,
+        "title": "Catering",
+        "description": "Hochwertiges Catering mit flexiblen Menüs und professionellem Service für jeden Anlass.",
+        "rating": 4.7,
+        "reviews": 85,
+        "image": "https://images.unsplash.com/photo-1555244162-803834f70033?q=80&w=800&auto=format&fit=crop",
+        "price": "Ab 100 €",
+        "category": "foodDining"
+      }
+    ]
+  }
+}
