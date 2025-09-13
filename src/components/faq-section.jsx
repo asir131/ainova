@@ -49,6 +49,21 @@ const faqData = {
         answer:
           "While you can browse services without an account, creating one allows you to track bookings, save preferences, and receive updates about your appointments.",
       },
+      {
+        question: "Can I modify or cancel my booking?",
+        answer:
+          "Yes, you can easily modify or cancel your booking through your account dashboard or by contacting our support team. Changes can be made up to 24 hours before your scheduled appointment.",
+      },
+      {
+        question: "What if I need help during the booking process?",
+        answer:
+          "Our AI assistant is available 24/7 to help guide you through the booking process. You can also contact our support team via chat, email, or phone for additional assistance.",
+      },
+      {
+        question: "Do I need to create an account to book a service?",
+        answer:
+          "While you can browse services without an account, creating one allows you to track bookings, save preferences, and receive updates about your appointments.",
+      },
     ],
   },
   de: {
@@ -81,6 +96,7 @@ const faqData = {
         answer:
           "Während Sie Services ohne Konto durchsuchen können, ermöglicht Ihnen die Erstellung eines Kontos, Buchungen zu verfolgen, Präferenzen zu speichern und Updates über Ihre Termine zu erhalten.",
       },
+      
     ],
   },
 }
@@ -95,11 +111,11 @@ export default function FAQSection() {
   }
 
   return (
-    <section className="py-16 px-6 bg-[#121D2E] text-white">
+    <section className="py-20 px-6 bg-[#121D2E] text-white">
       <div className="max-w-4xl mx-auto">
         {/* Header */}
         <div className="text-center mb-12">
-          <h2 className="text-4xl  font-bold text-whiteb-4">{content.title}</h2>
+          <h2 className="text-4xl  font-bold text-whiteb-4 pb-5">{content.title}</h2>
           <p className="text-white text-lg max-w-2xl mx-auto leading-relaxed">{content.subtitle}</p>
         </div>
 

@@ -1,5 +1,7 @@
 import Image from "next/image"
 import { footerContent } from "../../public/footer-content"
+import { FaInstagram } from "react-icons/fa6";
+import { CiLinkedin } from "react-icons/ci";
 
 
 
@@ -46,38 +48,29 @@ export default function Footer({ language = "en" }) {
 
           {/* Stay Updated */}
           <div className="space-y-6">
-            <h3 className="text-lg font-semibold">{content.stayUpdated}</h3>
-            <p className="text-[#121D2E] text-sm leading-relaxed">{content.stayUpdatedDesc}</p>
+           
             
 
             {/* Social Media */}
             <div className="space-y-3">
-              <h4 className="text-sm font-medium">{content.followUs}</h4>
+              <h4 className="text-base font-semibold">{content.followUs}</h4>
               <div className="flex space-x-3">
+                
                 <a
                   href="#"
                   className="w-10 h-10 bg-gray-100 rounded-lg flex items-center justify-center hover:bg-gray-300 transition-colors"
                 >
-                  <span className="text-sm font-bold">f</span>
+                 <FaInstagram />
+
                 </a>
                 <a
                   href="#"
                   className="w-10 h-10 bg-gray-100 rounded-lg flex items-center justify-center hover:bg-gray-300 transition-colors"
                 >
-                  <span className="text-sm font-bold">ig</span>
+                  <CiLinkedin />
+
                 </a>
-                <a
-                  href="#"
-                  className="w-10 h-10 bg-gray-100 rounded-lg flex items-center justify-center hover:bg-gray-300 transition-colors"
-                >
-                  <span className="text-sm font-bold">tw</span>
-                </a>
-                <a
-                  href="#"
-                  className="w-10 h-10 bg-gray-100 rounded-lg flex items-center justify-center hover:bg-gray-300 transition-colors"
-                >
-                  <span className="text-sm font-bold">in</span>
-                </a>
+                
               </div>
             </div>
           </div>

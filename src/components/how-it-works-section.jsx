@@ -62,8 +62,8 @@ export default function HowItWorksSection() {
   const t = content[currentLanguage] || content.en;
 
   return (
-    <section className="relative py-16 sm:py-20 lg:py-24 xl:py-28 bg-gradient-to-r from-[#CEE1FF] via-white to-[#CEE1FF]">
-      <div className= "flex flex-col items-center text-center max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 xl:px-10">
+    <section className="relative py-16 sm:py-20 lg:py-24 xl:py-28 bg-gradient-to-br from-[#CEE1FF] via-white to-[#CEE1FF]">
+      <div className= "flex flex-col items-center md:ml-20 justify-around text-center  mx-auto px-4 sm:px-6 lg:px-8 xl:px-10">
         {/* Header */}
         <div className=" text-center mb-12 sm:mb-14 lg:mb-16">
           <h2 className="flex text-center ml-15 md:ml-25 gap-3  text-2xl sm:text-3xl md:text-4xl lg:text-[46px] font-bold leading-tight tracking-tight text-gray-900 mb-4">
@@ -74,7 +74,7 @@ export default function HowItWorksSection() {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2  grid-col-reverse lg:grid-cols-[1fr_480px] xl:grid-cols-[1fr_520px] gap-12 lg:gap-20 xl:gap-50 items-center">
+        <div className="grid md:grid-cols-2 md:ml-30  grid-col-reverse lg:grid-cols-[1fr_480px] xl:grid-cols-[1fr_520px] gap-12 lg:gap-20 xl:gap-50 items-center">
           {/* Steps + Numbers */}
           <div className="relative ">
             {/* ambient glow */}
@@ -118,10 +118,10 @@ export default function HowItWorksSection() {
                     >
                       <div className="relative bg-white rounded-xl lg:rounded-[14px] border border-gray-100 shadow-[0_25px_50px_-12px_#C9deff] shadow-[#e9deff] hover:shadow-[#e9deff] transition-shadow duration-300 px-4 py-4 sm:px-5 sm:py-4 lg:px-6 lg:py-5 xl:px-7 xl:py-5 overflow-hidden">
                         <div className="absolute inset-0 opacity-[0.4] pointer-events-none bg-[radial-gradient(circle_at_20%_20%,rgba(59,130,246,0.12),transparent_60%)]" />
-                        <h3 className="relative text-sm sm:text-base lg:text-[15px] font-semibold text-gray-900 mb-1.5 leading-tight">
+                        <h3 className="text-start relative text-sm sm:text-base lg:text-[15px] font-semibold text-gray-900 mb-1.5 leading-tight">
                           {step.title}
                         </h3>
-                        <p className="relative text-xs sm:text-sm lg:text-[13px] leading-relaxed text-gray-600">
+                        <p className="relative text-start text-xs sm:text-sm lg:text-[13px] leading-relaxed text-gray-600">
                           {step.description}
                         </p>
                       </div>

@@ -93,7 +93,7 @@ export default function ContactForm({ content }) {
 
   return (
     <div>
-      <div className="bg-transparent rounded-lg p-8 ">
+      <div className="bg-transparent md:ml-35 rounded-lg p-8 ">
         {submitStatus === "error" && (
           <div className="mb-6 p-4 bg-red-50 border border-red-200 rounded-lg text-red-700">
             Sorry, there was an error sending your message. Please try again.
