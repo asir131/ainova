@@ -21,12 +21,12 @@ export const contactContent = {
       title: "Get in Touch",
       email: {
         title: "Email Us",
-        value: "hello@gmail.com",
+        value: "info@ainova-ai.com",
         description: "Send us a email & we will get back to you within 24 hours.",
       },
       phone: {
         title: "Call Us",
-        value: "+1(555) 123-4567",
+        value: "+41 79 852 8033",
         description: "Available Monday to Friday 9 AM to 6 PM Est",
       },
       address: {
@@ -63,12 +63,12 @@ export const contactContent = {
       title: "Kontakt aufnehmen",
       email: {
         title: "E-Mail an uns",
-        value: "hello@gmail.com",
+        value: "info@ainova-ai.com",
         description: "Senden Sie uns eine E-Mail und wir melden uns innerhalb von 24 Stunden bei Ihnen.",
       },
       phone: {
         title: "Rufen Sie uns an",
-        value: "+1(555) 123-4567",
+        value: "+41 79 852 8033",
         description: "Verfügbar Montag bis Freitag 9 bis 18 Uhr EST",
       },
       address: {

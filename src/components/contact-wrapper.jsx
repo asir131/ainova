@@ -47,7 +47,7 @@ export default function ContactWrapper() {
                       fill="none"
                       stroke="currentColor"
                       viewBox="0 0 24 24"
-                    >
+                    > 
                       <path
                         strokeLinecap="round"
                         strokeLinejoin="round"
@@ -98,49 +98,9 @@ export default function ContactWrapper() {
                     </p>
                   </div>
                 </div>
-                {/* tele Phone */}
-                <div className="flex items-start space-x-4">
-                  <div className="flex-shrink-0 w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center">
-                    <Image src="phone-old.svg" width={25} height={25} alt="" />
-                  </div>
-                  <div>
-                    <h3 className="font-semibold text-gray-800">
-                      Phone Contact
-                    </h3>
-                    <p className="text-gray-600 font-medium">
-                      +1 (555) 123-4567
-                    </p>
-                    <p className="text-sm text-gray-500 mt-1">
-                      Call us during business hours
-                    </p>
-                  </div>
-                </div>
+               
 
-                {/* Address */}
-                {/* <div className="flex items-start space-x-4">
-                  <div className="flex-shrink-0 w-12 h-12 bg-yellow-100 rounded-lg flex items-center justify-center">
-                    <svg className="w-6 h-6 text-yellow-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth={2}
-                        d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
-                      />
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth={2}
-                        d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
-                      />
-                    </svg>
-                  </div>
-                  <div>
-                    <h3 className="font-semibold text-gray-800">{content.contactInfo.address.title}</h3>
-                    <p className="text-gray-600 font-medium">{content.contactInfo.address.value}</p>
-                    <p className="text-sm text-gray-500 mt-1">{content.contactInfo.address.description}</p>
-                  </div>
-                </div> */}
-
+               
                 {/* Response Time */}
                 <div className="flex items-start space-x-4">
                   <div className="flex-shrink-0 w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center">

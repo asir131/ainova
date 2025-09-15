@@ -16,8 +16,8 @@ export default function TeamSection() {
       name: "Andre Graf",
       designation: currentLanguage === 'de' ? 'Mitgründer' : 'Co-Founder',
       description: currentLanguage === 'de' 
-        ? "Leidenschaftlicher Unternehmer mit umfangreicher Erfahrung in Geschäftsstrategie und Innovation. Andre bringt visionäre Führung und strategisches Denken mit, um das Wachstum und den Erfolg des Unternehmens voranzutreiben."
-        : "Passionate entrepreneur with extensive experience in business strategy and innovation. Andre brings visionary leadership and strategic thinking to drive the company's growth and success.",
+        ? "Vertrauen und Kundenzufriedenheit haben für mich oberste Priorität. Bei Ainova konzentriere ich mich darauf, zuverlässige, einfache und menschenzentrierte Lösungen zu entwickeln, die Unternehmen helfen, mit Zuversicht zu wachsen."
+        : "Trust and customer satisfaction are my top priorities. At Ainova, I focus on creating reliable, simple, and human-centered solutions that help businesses grow with confidence.",
     },
     {
       id: 2,
@@ -25,8 +25,8 @@ export default function TeamSection() {
       name: "Micha Eichenberger",
       designation: currentLanguage === 'de' ? 'Mitgründer' : 'Co-Founder',
       description: currentLanguage === 'de'
-        ? "Technologie-Enthusiast und Experte in der Produktentwicklung. Micha konzentriert sich auf die Entwicklung modernster Lösungen und gewährleistet technische Exzellenz bei allen Unternehmensinitiativen."
-        : "Technology enthusiast and expert in product development. Micha focuses on building cutting-edge solutions and ensuring technical excellence across all company initiatives.",
+        ? "Ich glaube daran, Lösungen zu entwickeln, die wirklich einen Unterschied machen. Mit einem starken Fokus auf Innovation und Effizienz stelle ich sicher, dass Ainova unseren Kunden echten Mehrwert und nachhaltige Wirkung bietet."
+        : "I believe in building solutions that truly make a difference. With a strong focus on innovation and efficiency, I ensure that Ainova delivers real value and lasting impact for our clients.",
     },
     {
       id: 3,
@@ -34,8 +34,8 @@ export default function TeamSection() {
       name: "Zsanna Simon",
       designation: currentLanguage === 'de' ? 'Mitgründerin' : 'Co-Founder',
       description: currentLanguage === 'de'
-        ? "Kreative Fachkraft mit starkem Hintergrund in Design und Benutzererfahrung. Zsanna widmet sich der Schaffung intuitiver und ansprechender Erfahrungen für Benutzer und Stakeholder."
-        : "Creative professional with a strong background in design and user experience. Zsanna is dedicated to creating intuitive and engaging experiences for users and stakeholders.",
+        ? "Ich konzentriere mich auf die Entwicklung klarer Vertriebsstrategien und die Leitung unserer Finanzoperationen. Meine Priorität ist es, das Wachstum von Ainova sicherzustellen und gleichzeitig starke, vertrauensvolle Beziehungen zu unseren Kunden aufzubauen."
+        : "I focus on developing clear sales strategies and managing our finance operations. My priority is to ensure Ainova’s growth while building strong, trustworthy relationships with our clients.",
     },
   ];
 
