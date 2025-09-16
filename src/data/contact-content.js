@@ -1,6 +1,6 @@
 export const contactContent = {
   en: {
-    title: "Contract Us",
+    title: "Contact Us",
     subtitle: "Have questions? We'd love to hear from you.",
     description: "Send us a message and we'll respond as soon as possible.",
     formTitle: "Send us a Message",

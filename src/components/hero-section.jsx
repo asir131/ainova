@@ -66,9 +66,9 @@ export default function HeroSection() {
         >
           {content.contactUs}
         </Link>
-        <button className="px-6 py-3 sm:px-8 sm:py-4 max-sm:w-full bg-gradient-to-r from-[#5E8CFF] via-[#7B81FF] to-[#C78EFF] text-white font-semibold rounded-full h-14 sm:h-[58px] w-full sm:w-[180px] transition-all duration-300 shadow-lg hover:shadow-xl flex items-center justify-center">
+        <Link href="/" className="px-6 py-3 sm:px-8 sm:py-4 max-sm:w-full bg-gradient-to-r from-[#5E8CFF] via-[#7B81FF] to-[#C78EFF] text-white font-semibold rounded-full h-14 sm:h-[58px] w-full sm:w-[180px] transition-all duration-300 shadow-lg hover:shadow-xl flex items-center justify-center">
           {content.getStarted}
-        </button>
+        </Link>
       </div>
     </div>
 

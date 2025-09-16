@@ -49,9 +49,13 @@ const page = () => {
         >
           {currentContent.contactButton}
         </Link>
-        <button className="px-8 py-4 max-sm:w-full bg-gradient-to-r from-[#5E8CFF] via-[#7B81FF] to-[#C78EFF] text-white font-semibold rounded-lg h-[58px] w-[180px] transition-all duration-300 shadow-lg hover:shadow-xl">
-          {currentContent.faqButton}
-        </button>
+      <Link
+  href="/about/faq"
+  // Trigger the scroll function when clicked
+  className="px-8 py-4 text-center max-sm:w-full bg-gradient-to-r from-[#5E8CFF] via-[#7B81FF] to-[#C78EFF] text-white font-semibold rounded-lg h-[58px] w-[180px] transition-all duration-300 shadow-lg hover:shadow-xl"
+>
+  {currentContent.faqButton}
+</Link>
       </div>
     </div>
   )
