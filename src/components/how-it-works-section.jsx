@@ -7,57 +7,54 @@ export default function HowItWorksSection() {
   const { currentLanguage } = useLanguage();
 
   const content = {
-    en: {
-      title: "How It Works",
-      subtitle:
-        "Our AI-powered platform makes booking services incredibly simple and efficient",
-      steps: [
-        {
-          number: "01",
-          title: "Tell us what you need",
-          description: "Let us know what service you need",
-        },
-        {
-          number: "02",
-          title: "AI Recommends the Best Options",
-          description: "AI will find the best services based on your request",
-        },
-        {
-          number: "03",
-          title: "Confirm & Book",
-          description: "Confirm your choice and complete booking fast",
-        },
-      ],
-      happyCustomers: "Happy Customer",
-      count: "10K+",
-    },
-    de: {
-      title: "Wie es funktioniert",
-      subtitle:
-        "Unsere KI-gestützte Plattform macht die Buchung von Dienstleistungen unglaublich einfach und effizient",
-      steps: [
-        {
-          number: "01",
-          title: "Sagen Sie uns, was Sie brauchen",
-          description: "Lassen Sie uns wissen, welchen Service Sie benötigen",
-        },
-        {
-          number: "02",
-          title: "KI empfiehlt die besten Optionen",
-          description:
-            "KI findet die besten Services basierend auf Ihrer Anfrage",
-        },
-        {
-          number: "03",
-          title: "Bestätigen & Buchen",
-          description:
-            "Bestätigen Sie Ihre Wahl und schließen Sie die Buchung schnell ab",
-        },
-      ],
-      happyCustomers: "Zufriedene Kunden",
-      count: "10K+",
-    },
-  };
+  en: {
+    title: "How It Works",
+    subtitle: "Getting Started with Ainova is Easy",
+    steps: [
+      {
+        number: "01",
+        title: "Contact Us",
+        description: "Reach out to us and let’s get connected",
+      },
+      {
+        number: "02",
+        title: "Share Your Needs",
+        description: "Tell us your main challenges and provide the key info we need.",
+      },
+      {
+        number: "03",
+        title: "Confirm & Go Live",
+        description: "Confirm & Go Live Approve the setup and let Ainova handle your customer communication.",
+      },
+    ],
+    happyCustomers: "Happy Customer",
+    count: "10K+",
+  },
+  de: {
+    title: "Wie es funktioniert",
+    subtitle: "Der Einstieg mit Ainova ist einfach",
+    steps: [
+      {
+        number: "01",
+        title: "Kontaktieren Sie uns",
+        description: "Nehmen Sie Kontakt mit uns auf und lassen Sie uns verbinden.",
+      },
+      {
+        number: "02",
+        title: "Teilen Sie Ihre Bedürfnisse",
+        description: "Erzählen Sie uns von Ihren Hauptproblemen und geben Sie uns die benötigten Informationen.",
+      },
+      {
+        number: "03",
+        title: "Bestätigen & Live gehen",
+        description: "Bestätigen Sie die Einrichtung und lassen Sie Ainova die Kundenkommunikation übernehmen.",
+      },
+    ],
+    happyCustomers: "Zufriedene Kunden",
+    count: "10K+",
+  },
+};
+
 
   const t = content[currentLanguage] || content.en;
 
@@ -66,7 +63,7 @@ export default function HowItWorksSection() {
       <div className= "flex flex-col items-center md:ml-20 justify-around text-center  mx-auto px-4 sm:px-6 lg:px-8 xl:px-10">
         {/* Header */}
         <div className=" text-center mb-12 sm:mb-14 lg:mb-16">
-          <h2 className="flex text-center ml-15 md:ml-25 gap-3  text-2xl sm:text-3xl md:text-4xl lg:text-[46px] font-bold leading-tight tracking-tight text-gray-900 mb-4">
+          <h2 className="flex text-center md:mr-5 ml-5 md:ml-0  gap-3  text-2xl sm:text-3xl md:text-4xl lg:text-[46px] font-bold leading-tight tracking-tight text-gray-900 mb-4">
            <div className="h-10 w-8 md:w-12 md:mt-1 "><Image src="/brain.png" width={100} height={100} alt="" /></div>{t.title}
           </h2>
           <p className="text-sm sm:text-base lg:text-[15px] leading-relaxed text-gray-600 max-w-2xl mx-auto px-4">
@@ -110,7 +107,7 @@ export default function HowItWorksSection() {
                     {/* Card */}
                     <div
                       className={
-                        "w-full transition-transform duration-300 ease-out " +
+                        "md:w-90 transition-transform duration-300 ease-out " +
                         (isMiddle
                           ? "mr-auto -translate-x-1 sm:-translate-x-2 lg:-translate-x-2 xl:-translate-x-4"
                           : "ml-auto translate-x-1 sm:translate-x-2 lg:translate-x-2 xl:translate-x-4")

@@ -62,11 +62,11 @@ export default function HeroSection() {
       <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center lg:justify-start">
         <Link
           href="/contact"
-          className="px-6 py-3 sm:px-8 sm:py-4 max-sm:w-full border-2 border-purple-600 text-purple-600 font-semibold h-14 sm:h-[58px] w-full sm:w-[180px] rounded-full hover:bg-purple-400 hover:text-white transition-all duration-300 flex items-center justify-center"
+          className="px-6 py-3 sm:px-8 sm:py-4 max-sm:w-full border-2 border-purple-600 text-purple-600 font-semibold h-14 sm:h-[58px] w-full sm:w-[180px] rounded-lg hover:bg-purple-400 hover:text-white transition-all duration-300 flex items-center justify-center"
         >
           {content.contactUs}
         </Link>
-        <Link href="/" className="px-6 py-3 sm:px-8 sm:py-4 max-sm:w-full bg-gradient-to-r from-[#5E8CFF] via-[#7B81FF] to-[#C78EFF] text-white font-semibold rounded-full h-14 sm:h-[58px] w-full sm:w-[180px] transition-all duration-300 shadow-lg hover:shadow-xl flex items-center justify-center">
+        <Link href="/" className="px-6 py-3 sm:px-8 sm:py-4 max-sm:w-full bg-gradient-to-r from-[#5E8CFF] via-[#7B81FF] to-[#C78EFF] text-white font-semibold rounded-lg h-14 sm:h-[58px] w-full sm:w-[180px] transition-all duration-300 shadow-lg hover:shadow-xl flex items-center justify-center">
           {content.getStarted}
         </Link>
       </div>

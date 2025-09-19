@@ -1,7 +1,7 @@
 export const footerContent = {
   en: {
     description:
-      "Book your next service in seconds with AI assistance. Instantly reserve your favorite services with no hassle, just results.",
+      "Automated bookings, instant answers, and seamless customer support across phone, WhatsApp, and social media. Simple. Reliable.  Always available.",
     quickLinks: "Quick Links",
     stayUpdated: "Stay Updated",
     stayUpdatedDesc: "Stay updated with the latest services & booking features.",
@@ -19,7 +19,7 @@ export const footerContent = {
   },
   de: {
     description:
-      "Buchen Sie Ihren nächsten Service in Sekunden mit KI-Unterstützung. Reservieren Sie sofort Ihre Lieblingsdienste ohne Aufwand, nur Ergebnisse.",
+      "Automatisierte Buchungen, sofortige Antworten und nahtloser Kundensupport über Telefon, WhatsApp und soziale Medien. Einfach. Zuverlässig. Immer verfügbar.",
     quickLinks: "Schnelle Links",
     stayUpdated: "Bleiben Sie auf dem Laufenden",
     stayUpdatedDesc: "Bleiben Sie über die neuesten Services und Buchungsfunktionen auf dem Laufenden.",

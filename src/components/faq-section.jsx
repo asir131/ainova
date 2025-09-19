@@ -7,12 +7,12 @@ const faqData = {
   en: {
     title: "FAQ",
     subtitle:
-      "Have questions about using our platform? Anova provides clear, simple answers to help you get started quickly.",
+      "This section gives you clear and simple answers about how our AI assistant helps your business handle calls, messages, and customer requests more efficiently.",
     faqs: [
       {
         question: "How does the Anova AI assistant work?",
         answer:
-          "Anova's AI assistant uses advanced machine learning algorithms to understand your requests, provide answers, and help streamline appointments or inquiries for you.",
+          "customer calls, WhatsApp messages, and emails automatically. It understands requests, provides answers, and notes down appointments or inquiries for you.",
       },
       {
         question: "How quickly can Anova be set up for my business?",
@@ -116,7 +116,7 @@ export default function FAQSection() {
         {/* Header */}
         <div className="text-center mb-12">
           <h2 className="text-4xl  font-bold text-whiteb-4 pb-5">{content.title}</h2>
-          <p className="text-white text-lg max-w-2xl mx-auto leading-relaxed">{content.subtitle}</p>
+          <p className="text-white text-sm max-w-2xl mx-auto leading-relaxed">{content.subtitle}</p>
         </div>
 
         {/* FAQ Items */}

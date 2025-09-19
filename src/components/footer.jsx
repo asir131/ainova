@@ -57,14 +57,14 @@ export default function Footer({ language = "en" }) {
               <div className="flex space-x-3">
                 
                 <a
-                  href="#"
+                  href="https://www.instagram.com/accounts/login/?next=%2Fainova.official%2F&source=omni_redirect"
                   className="w-10 h-10 bg-gray-100 rounded-lg flex items-center justify-center hover:bg-gray-300 transition-colors"
                 >
                  <FaInstagram />
 
                 </a>
                 <a
-                  href="#"
+                  href="https://www.linkedin.com/search/results/all/?fetchDeterministicClustersOnly=true&heroEntityKey=urn%3Ali%3Aorganization%3A108208920&keywords=ainova&origin=RICH_QUERY_SUGGESTION&position=0&searchId=abfeb357-e85e-4434-83f0-5cddf3c45aef&sid=yoo&spellCorrectionEnabled=false"
                   className="w-10 h-10 bg-gray-100 rounded-lg flex items-center justify-center hover:bg-gray-300 transition-colors"
                 >
                   <CiLinkedin />
