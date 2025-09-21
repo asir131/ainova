@@ -5,129 +5,107 @@ import { useState } from "react"
 
 const faqData = {
   en: {
-    title: "FAQ",
-    subtitle:
-      "This section gives you clear and simple answers about how our AI assistant helps your business handle calls, messages, and customer requests more efficiently.",
-    faqs: [
-      {
-        question: "How does the Anova AI assistant work?",
-        answer:
-          "customer calls, WhatsApp messages, and emails automatically. It understands requests, provides answers, and notes down appointments or inquiries for you.",
-      },
-      {
-        question: "How quickly can Anova be set up for my business?",
-        answer:
-          "Anova can be set up for your business in just a few minutes. Our streamlined onboarding process gets you up and running quickly with minimal configuration required.",
-      },
-      {
-        question: "Can I modify or cancel my booking?",
-        answer:
-          "Yes, you can easily modify or cancel your booking through your account dashboard or by contacting our support team. Changes can be made up to 24 hours before your scheduled appointment.",
-      },
-      {
-        question: "What if I need help during the booking process?",
-        answer:
-          "Our AI assistant is available 24/7 to help guide you through the booking process. You can also contact our support team via chat, email, or phone for additional assistance.",
-      },
-      {
-        question: "Do I need to create an account to book a service?",
-        answer:
-          "While you can browse services without an account, creating one allows you to track bookings, save preferences, and receive updates about your appointments.",
-      },
-      {
-        question: "Can I modify or cancel my booking?",
-        answer:
-          "Yes, you can easily modify or cancel your booking through your account dashboard or by contacting our support team. Changes can be made up to 24 hours before your scheduled appointment.",
-      },
-      {
-        question: "What if I need help during the booking process?",
-        answer:
-          "Our AI assistant is available 24/7 to help guide you through the booking process. You can also contact our support team via chat, email, or phone for additional assistance.",
-      },
-      {
-        question: "Do I need to create an account to book a service?",
-        answer:
-          "While you can browse services without an account, creating one allows you to track bookings, save preferences, and receive updates about your appointments.",
-      },
-      {
-        question: "Can I modify or cancel my booking?",
-        answer:
-          "Yes, you can easily modify or cancel your booking through your account dashboard or by contacting our support team. Changes can be made up to 24 hours before your scheduled appointment.",
-      },
-      {
-        question: "What if I need help during the booking process?",
-        answer:
-          "Our AI assistant is available 24/7 to help guide you through the booking process. You can also contact our support team via chat, email, or phone for additional assistance.",
-      },
-      {
-        question: "Do I need to create an account to book a service?",
-        answer:
-          "While you can browse services without an account, creating one allows you to track bookings, save preferences, and receive updates about your appointments.",
-      },
-    ],
-  },
+  "title": "FAQ",
+  "subtitle": "This section gives you clear and simple answers about how our AI assistant helps your business handle calls, messages, and customer requests more efficiently.",
+  "faqs": [
+    {
+      "question": "How does the Ainova AI assistant work?",
+      "answer": "Customer calls, WhatsApp messages, and emails automatically. It understands requests, provides answers, and notes down appointments or inquiries for you."
+    },
+    {
+      "question": "Can Ainova answer phone calls, WhatsApp, and emails?",
+      "answer": "Yes, Ainova can handle phone calls, WhatsApp messages, and emails, allowing your business to respond to customer inquiries seamlessly across various channels."
+    },
+    {
+      "question": "Is the AI available 24/7 for my customers?",
+      "answer": "Yes, Ainova is always available, 24/7, ensuring your customers can reach out at any time and get the support they need without delay."
+    },
+    {
+      "question": "Do I need special hardware or installation?",
+      "answer": "No, Ainova is a cloud-based AI assistant, so no special hardware or installation is required. All you need is an internet connection to get started."
+    },
+    {
+      "question": "Do I need to create an account to book a service?",
+      "answer": "In most cases, yes, customers may need to create an account to book services, but the process is quick and easy to ensure a smooth experience."
+    },
+    {
+      "question": "How quickly can Ainova be set up for my business?",
+      "answer": "Ainova can typically be set up within a few hours, depending on your business needs. Our team provides all the necessary guidance to ensure a smooth and fast setup."
+    },
+    {
+      "question": "Can the AI handle multiple customers at the same time?",
+      "answer": "Yes, Ainova is designed to handle multiple customers simultaneously, making it efficient and able to scale according to demand without compromising on service quality."
+    },
+    {
+      "question": "What languages does Ainova support?",
+      "answer": "Ainova supports multiple languages, allowing you to provide customer support in various languages to cater to your diverse clientele."
+    },
+    {
+      "question": "Will my customers know they are speaking to an AI?",
+      "answer": "While Ainova is designed to be as human-like as possible, customers may be informed that they are interacting with an AI, especially when it enhances transparency and trust."
+    },
+    {
+      "question": "Can Ainova integrate with my existing systems (CRM, booking tools, etc.)",
+      "answer": "Yes, Ainova can integrate with your existing systems, such as CRMs and booking tools, to ensure seamless communication and streamline your business processes."
+    },
+    {
+      "question": "Is the data secure and GDPR compliant?",
+      "answer": "Yes, we take data security seriously. Ainova is fully GDPR-compliant, and we ensure that your customers' data is securely handled, respecting privacy regulations."
+    }
+  ]
+},
+
   de: {
-    title: "FAQ",
-    subtitle:
-      "Dieser Abschnitt gibt Ihnen klare und einfache Antworten darauf, wie unser KI-Assistent Ihrem Unternehmen hilft, Anrufe, Nachrichten und Kundenanfragen effizienter zu bearbeiten.",
-    faqs: [
-      {
-        question: "Wie funktioniert der Anova AI-Assistent?",
-        answer:
-          "Der Anova AI-Assistent bearbeitet automatisch Kundenanrufe, WhatsApp-Nachrichten und E-Mails. Er versteht Anfragen, gibt Antworten und notiert Termine oder Anfragen für Sie.",
-      },
-      {
-        question: "Wie schnell kann Anova für mein Unternehmen eingerichtet werden?",
-        answer:
-          "Anova kann in nur wenigen Minuten für Ihr Unternehmen eingerichtet werden. Unser optimierter Onboarding-Prozess bringt Sie schnell zum Laufen mit minimaler Konfiguration.",
-      },
-      {
-        question: "Kann ich meine Buchung ändern oder stornieren?",
-        answer:
-          "Ja, Sie können Ihre Buchung einfach über Ihr Konto-Dashboard ändern oder stornieren oder unser Support-Team kontaktieren. Änderungen können bis zu 24 Stunden vor Ihrem geplanten Termin vorgenommen werden.",
-      },
-      {
-        question: "Was ist, wenn ich Hilfe während des Buchungsprozesses benötige?",
-        answer:
-          "Unser AI-Assistent steht Ihnen rund um die Uhr zur Verfügung, um Sie durch den Buchungsprozess zu führen. Sie können auch unser Support-Team per Chat, E-Mail oder Telefon für zusätzliche Hilfe kontaktieren.",
-      },
-      {
-        question: "Muss ich ein Konto erstellen, um einen Service zu buchen?",
-        answer:
-          "Während Sie Services ohne Konto durchsuchen können, ermöglicht Ihnen die Erstellung eines Kontos, Buchungen zu verfolgen, Präferenzen zu speichern und Updates über Ihre Termine zu erhalten.",
-      },
-      {
-        question: "Kann ich meine Buchung ändern oder stornieren?",
-        answer:
-          "Ja, Sie können Ihre Buchung einfach über Ihr Konto-Dashboard ändern oder stornieren oder unser Support-Team kontaktieren. Änderungen können bis zu 24 Stunden vor Ihrem geplanten Termin vorgenommen werden.",
-      },
-      {
-        question: "Was ist, wenn ich Hilfe während des Buchungsprozesses benötige?",
-        answer:
-          "Unser AI-Assistent steht Ihnen rund um die Uhr zur Verfügung, um Sie durch den Buchungsprozess zu führen. Sie können auch unser Support-Team per Chat, E-Mail oder Telefon für zusätzliche Hilfe kontaktieren.",
-      },
-      {
-        question: "Muss ich ein Konto erstellen, um einen Service zu buchen?",
-        answer:
-          "Während Sie Services ohne Konto durchsuchen können, ermöglicht Ihnen die Erstellung eines Kontos, Buchungen zu verfolgen, Präferenzen zu speichern und Updates über Ihre Termine zu erhalten.",
-      },
-      {
-        question: "Kann ich meine Buchung ändern oder stornieren?",
-        answer:
-          "Ja, Sie können Ihre Buchung einfach über Ihr Konto-Dashboard ändern oder stornieren oder unser Support-Team kontaktieren. Änderungen können bis zu 24 Stunden vor Ihrem geplanten Termin vorgenommen werden.",
-      },
-      {
-        question: "Was ist, wenn ich Hilfe während des Buchungsprozesses benötige?",
-        answer:
-          "Unser AI-Assistent steht Ihnen rund um die Uhr zur Verfügung, um Sie durch den Buchungsprozess zu führen. Sie können auch unser Support-Team per Chat, E-Mail oder Telefon für zusätzliche Hilfe kontaktieren.",
-      },
-      {
-        question: "Muss ich ein Konto erstellen, um einen Service zu buchen?",
-        answer:
-          "Während Sie Services ohne Konto durchsuchen können, ermöglicht Ihnen die Erstellung eines Kontos, Buchungen zu verfolgen, Präferenzen zu speichern und Updates über Ihre Termine zu erhalten.",
-      },
-    ],
-  },
+  "title": "Häufig gestellte Fragen",
+  "subtitle": "Dieser Abschnitt gibt Ihnen klare und einfache Antworten darauf, wie unser AI-Assistent Ihrem Unternehmen hilft, Anrufe, Nachrichten und Kundenanfragen effizienter zu bearbeiten.",
+  "faqs": [
+    {
+      "question": "Wie funktioniert der Ainova AI-Assistent?",
+      "answer": "Der AI-Assistent nimmt automatisch Kundenanrufe, WhatsApp-Nachrichten und E-Mails entgegen. Er versteht Anfragen, gibt Antworten und notiert Termine oder Anfragen für Sie."
+    },
+    {
+      "question": "Kann Ainova Telefonanrufe, WhatsApp und E-Mails beantworten?",
+      "answer": "Ja, Ainova kann Telefonanrufe, WhatsApp-Nachrichten und E-Mails bearbeiten, sodass Ihr Unternehmen Kundenanfragen nahtlos über verschiedene Kanäle beantworten kann."
+    },
+    {
+      "question": "Ist der AI-Assistent 24/7 für meine Kunden verfügbar?",
+      "answer": "Ja, Ainova ist jederzeit, 24/7, verfügbar, sodass Ihre Kunden jederzeit Kontakt aufnehmen und die Unterstützung erhalten können, die sie benötigen."
+    },
+    {
+      "question": "Benötige ich spezielle Hardware oder eine Installation?",
+      "answer": "Nein, Ainova ist ein cloudbasierter AI-Assistent, daher ist keine spezielle Hardware oder Installation erforderlich. Alles, was Sie benötigen, ist eine Internetverbindung, um loszulegen."
+    },
+    {
+      "question": "Muss ich ein Konto erstellen, um einen Service zu buchen?",
+      "answer": "In den meisten Fällen ja, Kunden müssen ein Konto erstellen, um Dienstleistungen zu buchen, aber der Prozess ist schnell und einfach, um eine reibungslose Erfahrung zu gewährleisten."
+    },
+    {
+      "question": "Wie schnell kann Ainova für mein Unternehmen eingerichtet werden?",
+      "answer": "Ainova kann in der Regel innerhalb weniger Stunden eingerichtet werden, abhängig von den Bedürfnissen Ihres Unternehmens. Unser Team stellt alle notwendigen Anleitungen zur Verfügung, um eine schnelle und reibungslose Einrichtung zu gewährleisten."
+    },
+    {
+      "question": "Kann der AI-Assistent mehrere Kunden gleichzeitig betreuen?",
+      "answer": "Ja, Ainova ist so konzipiert, dass er mehrere Kunden gleichzeitig betreuen kann, was ihn effizient und skalierbar macht, um der Nachfrage gerecht zu werden, ohne die Servicequalität zu beeinträchtigen."
+    },
+    {
+      "question": "Welche Sprachen unterstützt Ainova?",
+      "answer": "Ainova unterstützt mehrere Sprachen, sodass Sie Ihren Kundenservice in verschiedenen Sprachen anbieten können, um Ihrer vielfältigen Kundschaft gerecht zu werden."
+    },
+    {
+      "question": "Werden meine Kunden wissen, dass sie mit einem AI-Assistenten sprechen?",
+      "answer": "Während Ainova so menschlich wie möglich gestaltet ist, können Kunden darüber informiert werden, dass sie mit einem AI-Assistenten interagieren, insbesondere um Transparenz und Vertrauen zu fördern."
+    },
+    {
+      "question": "Kann Ainova in meine bestehenden Systeme (CRM, Buchungstools usw.) integriert werden?",
+      "answer": "Ja, Ainova kann in Ihre bestehenden Systeme wie CRM und Buchungstools integriert werden, um eine nahtlose Kommunikation zu gewährleisten und Ihre Geschäftsprozesse zu optimieren."
+    },
+    {
+      "question": "Ist die Daten sicher und GDPR-konform?",
+      "answer": "Ja, wir legen großen Wert auf Datensicherheit. Ainova ist vollständig GDPR-konform, und wir stellen sicher, dass die Daten Ihrer Kunden sicher verarbeitet werden und die Datenschutzvorschriften eingehalten werden."
+    }
+  ]
+}
+,
 }
 
 

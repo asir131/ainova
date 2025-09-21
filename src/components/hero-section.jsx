@@ -15,15 +15,15 @@ export default function HeroSection() {
       getStarted: "How it works",
       contactUs: "Contact Us",
     },
-    de: {
-      title: "Buchen Sie Ihren nächsten Service in Sekunden mit",
-      aiText: "KI-Unterstützung",
-      subtitle: "– Schnell, Einfach und Problemlos!",
+   de: {
+      title: "Ihr Digitaler Kunde",
+      aiText: "Assistent",
+      subtitle: "Immer Verfügbar, Zuverlässig",
       description:
-        "Reservieren Sie sofort Ihre Lieblingsdienste—Kein Ärger, nur Ergebnisse!",
-      getStarted: "Loslegen",
-      contactUs: "Kontakt",
-    },
+        "Mit AINOVA erhalten Sie 24/7 Buchungen, sofortige Antworten und glücklichere Kunden, während Sie und Ihr Team stressfrei bleiben.",
+      getStarted: "Wie es funktioniert",
+      contactUs: "Kontaktieren Sie uns",
+    }
   };
   
   const content = heroContent[currentLanguage];

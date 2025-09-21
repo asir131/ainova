@@ -2,6 +2,7 @@ import Image from "next/image"
 import { footerContent } from "../../public/footer-content"
 import { FaInstagram } from "react-icons/fa6";
 import { CiLinkedin } from "react-icons/ci";
+import Link from "next/link";
 
 
 
@@ -25,24 +26,24 @@ export default function Footer({ language = "en" }) {
           <div className="space-y-6">
             <h3 className="text-lg font-semibold">{content.quickLinks}</h3>
             <nav className="space-y-3">
-              <a href="/" className="block text-[#121D2E] hover:text-white transition-colors text-sm">
+              <Link href="/" className="block text-[#121D2E] hover:text-white transition-colors text-sm">
                 {content.links.home}
-              </a>
-              <a href="/about" className="block text-[#121D2E] hover:text-white transition-colors text-sm">
-                {content.links.aboutUs}
-              </a>
-              <a href="/services" className="block text-[#121D2E] hover:text-white transition-colors text-sm">
+              </Link>
+              <Link href="/how-it-works" className="block text-[#121D2E] hover:text-white transition-colors text-sm">
+                {content.links.howItWorks}
+              </Link>
+              {/* <a href="/services" className="block text-[#121D2E] hover:text-white transition-colors text-sm">
                 {content.links.services}
-              </a>
-              <a href="/team" className="block text-[#121D2E] hover:text-white transition-colors text-sm">
+              </a> */}
+              <Link href="/team" className="block text-[#121D2E] hover:text-white transition-colors text-sm">
                 {content.links.team}
-              </a>
-              <a href="/contact" className="block text-[#121D2E] hover:text-white transition-colors text-sm">
+              </Link>
+              <Link href="/contact" className="block text-[#121D2E] hover:text-white transition-colors text-sm">
                 {content.links.contactUs}
-              </a>
-              <a href="/privacy" className="block text-[#121D2E] hover:text-white transition-colors text-sm">
+              </Link>
+              <Link href="/privacy" className="block text-[#121D2E] hover:text-white transition-colors text-sm">
                 {content.links.privacyPolicy}
-              </a>
+              </Link>
             </nav>
           </div>
 

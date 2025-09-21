@@ -10,11 +10,11 @@ export const footerContent = {
     followUs: "Follow Us",
     links: {
       home: "Home",
-      aboutUs: "About Us",
-      services: "Services",
+      howItWorks: "How it works",
+      
       team: "Team",
       contactUs: "Contact Us",
-      privacyPolicy: "Privacy Policy",
+      
     },
   },
   de: {
@@ -28,11 +28,11 @@ export const footerContent = {
     followUs: "Folgen Sie uns",
     links: {
       home: "Startseite",
-      aboutUs: "Über uns",
-      services: "Dienstleistungen",
+      howItWorks: "Wie es funktioniert",
+      
       team: "Team",
       contactUs: "Kontakt",
-      privacyPolicy: "Datenschutz",
+      
     },
   },
 }

@@ -39,40 +39,42 @@ export default function TeamSection() {
     },
   ];
 
-  const culture = [
-    {
-      id: 1,
-      image: "/bulb.png",
-      name: currentLanguage === 'de' ? 'Innovation im Herzen' : 'Innovation At Heart',
-      description: currentLanguage === 'de'
-        ? "Wir begrüßen Veränderungen und erforschen kontinuierlich neue Wege, wie KI alltägliche Geschäftsinteraktionen vereinfachen und verbessern kann."
-        : "We embrace change and continuously explore new ways AI can simplify and improve everyday business interactions Reply.",
-    },
-    {
-      id: 2,
-      image: "/search.png",
-      name: currentLanguage === 'de' ? 'Als Eins Arbeiten' : 'Working as One',
-      description: currentLanguage === 'de'
-        ? "Partnerschaft ist der Schlüssel! Sowohl innerhalb unseres Teams als auch mit unseren Kunden. Gemeinsam schaffen wir Lösungen, die echten Wert liefern."
-        : "Partnership is key! Both within our team and with our clients. Together, we craft solutions that deliver real value.",
-    },
-    {
-      id: 3,
-      image: "/human.png",
-      name: currentLanguage === 'de' ? 'Menschen Zuerst' : 'People First',
-      description: currentLanguage === 'de'
-        ? "Unsere Technologie ist um Menschen herum aufgebaut. Wir konzentrieren uns auf intuitive, zuverlässige Lösungen, die Kundenerfahrungen verbessern und die Arbeitsbelastung für Teams erleichtern."
-        : "Our technology is built around people. We focus on intuitive, reliable solutions that enhance customer experiences and ease the workload for teams.",
-    },
-    {
-      id: 4,
-      image: "/handshake.png",
-      name: currentLanguage === 'de' ? 'Auf Vertrauen Gebaut' : 'Built on Trust',
-      description: currentLanguage === 'de'
-        ? "Wir entwickeln Produkte mit Integrität und stellen sicher, dass unsere KI-Empfehlungen fair, genau und immer im besten Interesse unserer Benutzer sind."
-        : "We build products with integrity, ensuring our AI recommendations are fair, accurate, and always in our users' best interests.",
-    },
-  ];
+ const culture = [
+  {
+    id: 1,
+    image: "/bulb.png",
+    name: currentLanguage === 'de' ? 'Innovation im Herzen' : 'Innovation At Heart',
+    description: currentLanguage === 'de'
+      ? "Wir begrüßen Veränderungen und suchen ständig nach neuen Wegen, wie KI Geschäftsprozesse verbessern kann."
+      : "We embrace change and continuously explore new ways AI can simplify and improve everyday business interactions.",
+  },
+  {
+    id: 2,
+    image: "/search.png",
+    name: currentLanguage === 'de' ? 'Als Eins Arbeiten' : 'Working as One',
+    description: currentLanguage === 'de'
+      ? "Partnerschaft ist entscheidend! Sowohl im Team als auch mit unseren Kunden schaffen wir Lösungen, die echten Wert liefern."
+      : "Partnership is key! Both within our team and with our clients. Together, we craft solutions that deliver real value.",
+  },
+  {
+    id: 3,
+    image: "/human.png",
+    name: currentLanguage === 'de' ? 'Menschen Zuerst' : 'People First',
+    description: currentLanguage === 'de'
+      ? "Unsere Technologie basiert auf Menschen. Wir bieten intuitive, zuverlässige Lösungen, die die Kundenerfahrung verbessern."
+      : "Our technology is built around people. We focus on intuitive, reliable solutions that enhance customer experiences and ease the workload for teams.",
+  },
+  {
+    id: 4,
+    image: "/handshake.png",
+    name: currentLanguage === 'de' ? 'Auf Vertrauen Gebaut' : 'Built on Trust',
+    description: currentLanguage === 'de'
+      ? "Wir bauen Produkte mit Integrität, damit unsere KI fair, genau und im besten Interesse der Nutzer bleibt."
+      : "We build products with integrity, ensuring our AI recommendations are fair, accurate, and always in our users' best interests.",
+  },
+];
+
+
 
   // Content translations
   const content = {
@@ -168,9 +170,9 @@ export default function TeamSection() {
     <section className="relative bg-gradient-to-r from-[#508DFF] via-[#A0C1FF] to-[#508DFF] py-16 sm:py-20 lg:py-28 overflow-hidden">
       {/* Background decorations */}
       <div className="pointer-events-none absolute inset-0">
-        <div className="absolute top-16 left-8 w-60 sm:w-72 h-60 sm:h-72 bg-[radial-gradient(circle_at_center,rgba(216,226,255,0.65),rgba(216,226,255,0)_70%)] blur-2xl animate-pulse" />
+        <div className="absolute top-16 left-8 w-60 sm:w-72  h-60 sm:h-72 bg-[radial-gradient(circle_at_center,rgba(216,226,255,0.65),rgba(216,226,255,0)_70%)] blur-2xl animate-pulse" />
         <div
-          className="absolute top-72 right-10 w-72 sm:w-96 h-72 sm:h-96 bg-[radial-gradient(circle_at_center,rgba(216,226,255,0.55),rgba(216,226,255,0)_70%)] blur-3xl animate-pulse"
+          className="absolute top-72 right-10  w-72 sm:w-96 h-72 sm:h-96 bg-[radial-gradient(circle_at_center,rgba(216,226,255,0.55),rgba(216,226,255,0)_70%)] blur-3xl animate-pulse"
           style={{ animationDelay: "1.5s" }}
         />
         <div
@@ -179,7 +181,7 @@ export default function TeamSection() {
         />
       </div>
 
-      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="relative z-10 container mx-auto px-4 sm:px-6 lg:px-30 ">
         {/* Team Header */}
         <div className="text-center mb-12 sm:mb-16 lg:mb-20">
           <h2 className="text-3xl text-white sm:text-5xl lg:text-6xl font-extrabold mb-6 leading-tight tracking-tight">
@@ -205,7 +207,7 @@ export default function TeamSection() {
           </p>
 
           {/* Culture Grid */}
-          <div className="grid gap-8 md:gap-10 lg:gap-12 grid-cols-1 md:grid-cols-2 lg:grid-cols-4 place-items-center mt-20">
+          <div className="grid gap-8 md:gap-10 lg:gap-12 grid-cols-1 md:grid-cols-2 2xl:grid-cols-4 place-items-center mt-20">
             {culture.map((item, index) => renderCultureCard(item, index))}
           </div>
         </div>
