@@ -11,8 +11,8 @@ const MobileMenu = () => {
 
   const navItems = [
     { name: t("home"), href: "/" },
-    { name: t("services"), href: "/services" },
-    { name: t("aboutUs"), href: "/about" },
+   
+    { name: t("How it works"), href: "/how-it-works" },
     { name: t("team"), href: "/team" },
     { name: t("contactUs"), href: "/contact" },
   ]
@@ -30,7 +30,7 @@ const MobileMenu = () => {
       {/* Hamburger Button */}
       <button
         onClick={toggleMenu}
-        className="md:hidden flex flex-col justify-center items-center w-8 h-8 space-y-1"
+        className="xl:hidden flex flex-col justify-center items-center w-8 h-8 space-y-1"
         aria-label="Toggle menu"
       >
         <span
@@ -44,7 +44,7 @@ const MobileMenu = () => {
 
       {/* Mobile Menu Overlay */}
       {isOpen && (
-        <div className="md:hidden fixed inset-0 z-50 bg-black bg-opacity-50" onClick={closeMenu}>
+        <div className="xl:hidden fixed inset-0 z-50 bg-black/50 bg-opacity-50" onClick={closeMenu}>
           <div className="absolute top-0 right-0 w-64 h-full bg-white shadow-lg">
             <div className="p-6">
               <button

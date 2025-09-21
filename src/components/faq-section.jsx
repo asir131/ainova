@@ -69,12 +69,12 @@ const faqData = {
   de: {
     title: "FAQ",
     subtitle:
-      "Haben Sie Fragen zur Nutzung unserer Plattform? Anova bietet klare, einfache Antworten, um Ihnen den schnellen Einstieg zu ermöglichen.",
+      "Dieser Abschnitt gibt Ihnen klare und einfache Antworten darauf, wie unser KI-Assistent Ihrem Unternehmen hilft, Anrufe, Nachrichten und Kundenanfragen effizienter zu bearbeiten.",
     faqs: [
       {
         question: "Wie funktioniert der Anova AI-Assistent?",
         answer:
-          "Anovas AI-Assistent verwendet fortschrittliche Machine-Learning-Algorithmen, um Ihre Anfragen zu verstehen, Antworten zu geben und Termine oder Anfragen für Sie zu optimieren.",
+          "Der Anova AI-Assistent bearbeitet automatisch Kundenanrufe, WhatsApp-Nachrichten und E-Mails. Er versteht Anfragen, gibt Antworten und notiert Termine oder Anfragen für Sie.",
       },
       {
         question: "Wie schnell kann Anova für mein Unternehmen eingerichtet werden?",
@@ -96,10 +96,40 @@ const faqData = {
         answer:
           "Während Sie Services ohne Konto durchsuchen können, ermöglicht Ihnen die Erstellung eines Kontos, Buchungen zu verfolgen, Präferenzen zu speichern und Updates über Ihre Termine zu erhalten.",
       },
-      
+      {
+        question: "Kann ich meine Buchung ändern oder stornieren?",
+        answer:
+          "Ja, Sie können Ihre Buchung einfach über Ihr Konto-Dashboard ändern oder stornieren oder unser Support-Team kontaktieren. Änderungen können bis zu 24 Stunden vor Ihrem geplanten Termin vorgenommen werden.",
+      },
+      {
+        question: "Was ist, wenn ich Hilfe während des Buchungsprozesses benötige?",
+        answer:
+          "Unser AI-Assistent steht Ihnen rund um die Uhr zur Verfügung, um Sie durch den Buchungsprozess zu führen. Sie können auch unser Support-Team per Chat, E-Mail oder Telefon für zusätzliche Hilfe kontaktieren.",
+      },
+      {
+        question: "Muss ich ein Konto erstellen, um einen Service zu buchen?",
+        answer:
+          "Während Sie Services ohne Konto durchsuchen können, ermöglicht Ihnen die Erstellung eines Kontos, Buchungen zu verfolgen, Präferenzen zu speichern und Updates über Ihre Termine zu erhalten.",
+      },
+      {
+        question: "Kann ich meine Buchung ändern oder stornieren?",
+        answer:
+          "Ja, Sie können Ihre Buchung einfach über Ihr Konto-Dashboard ändern oder stornieren oder unser Support-Team kontaktieren. Änderungen können bis zu 24 Stunden vor Ihrem geplanten Termin vorgenommen werden.",
+      },
+      {
+        question: "Was ist, wenn ich Hilfe während des Buchungsprozesses benötige?",
+        answer:
+          "Unser AI-Assistent steht Ihnen rund um die Uhr zur Verfügung, um Sie durch den Buchungsprozess zu führen. Sie können auch unser Support-Team per Chat, E-Mail oder Telefon für zusätzliche Hilfe kontaktieren.",
+      },
+      {
+        question: "Muss ich ein Konto erstellen, um einen Service zu buchen?",
+        answer:
+          "Während Sie Services ohne Konto durchsuchen können, ermöglicht Ihnen die Erstellung eines Kontos, Buchungen zu verfolgen, Präferenzen zu speichern und Updates über Ihre Termine zu erhalten.",
+      },
     ],
   },
 }
+
 
 export default function FAQSection() {
   const { currentLanguage } = useLanguage()

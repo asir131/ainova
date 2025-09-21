@@ -155,7 +155,7 @@ export default function TeamSection() {
       <h3 className="text-xl sm:text-2xl font-bold tracking-tight text-slate-900 mb-2">
         {item.name}
       </h3>
-      <p className="text-sm leading-relaxed text-slate-600 line-clamp-4">
+      <p className="text-sm  text-slate-600  ">
         {item.description}
       </p>
     </div>

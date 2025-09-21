@@ -16,7 +16,7 @@ const Navigation = () => {
   const navItems = [
     { name: t("home"), href: "/" },
     // { name: t("services"), href: "/services" },
-    { name: t("aboutUs"), href: "/about" },
+    { name: t("How It Works"), href: "/how-it-works" },
     { name: t("team"), href: "/team" },
     { name: t("contactUs"), href: "/contact" },
   ];
@@ -27,7 +27,7 @@ const Navigation = () => {
         isHomePage ? "bg-transparent" : "bg-white border-b border-gray-200"
       }`}
     >
-      <div className="max-w-7xl mx-auto flex items-center justify-between">
+      <div className="max-w-full md:mx-auto flex  items-center justify-between md:justify-around">
         <NavLink
           href="/"
           className="flex items-center space-x-2 hover:text-gray-800"
@@ -38,7 +38,7 @@ const Navigation = () => {
           </span>
         </NavLink>
 
-        <div className="hidden md:flex items-center md:ml-40 space-x-8">
+        <div className="hidden xl:flex items-center md:ml-40 space-x-8">
           {navItems.map((item, index) => (
             <NavLink key={index} href={item.href}>
               {item.name}
@@ -46,7 +46,7 @@ const Navigation = () => {
           ))}
         </div>
 
-        <div className="flex font-semibold rounded-lg bg-[#DEE3FF] items-center space-x-4">
+        <div className="flex  font-semibold rounded-lg bg-[#DEE3FF] items-center space-x-4">
           <LanguageSelector />
           <MobileMenu />
         </div>
