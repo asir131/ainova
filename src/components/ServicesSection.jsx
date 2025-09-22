@@ -9,35 +9,37 @@ export default function TeamSection() {
   const [isLoading, setIsLoading] = useState(false);
 
   // Team data with multilingual support
-  const team = [
-    {
-      id: 1,
-      image: "/team1.png",
-      name: "Andre Graf",
-      designation: currentLanguage === 'de' ? 'Mitgründer' : 'Co-Founder',
-      description: currentLanguage === 'de' 
-        ? "Vertrauen und Kundenzufriedenheit haben für mich oberste Priorität. Bei Ainova konzentriere ich mich darauf, zuverlässige, einfache und menschenzentrierte Lösungen zu entwickeln, die Unternehmen helfen, mit Zuversicht zu wachsen."
-        : "Trust and customer satisfaction are my top priorities. At Ainova, I focus on creating reliable, simple, and human-centered solutions that help businesses grow with confidence.",
-    },
-    {
-      id: 2,
-      image: "/team2.png",
-      name: "Micha Eichenberger",
-      designation: currentLanguage === 'de' ? 'Mitgründer' : 'Co-Founder',
-      description: currentLanguage === 'de'
-        ? "Ich glaube daran, Lösungen zu entwickeln, die wirklich einen Unterschied machen. Mit einem starken Fokus auf Innovation und Effizienz stelle ich sicher, dass Ainova unseren Kunden echten Mehrwert und nachhaltige Wirkung bietet."
-        : "I believe in building solutions that truly make a difference. With a strong focus on innovation and efficiency, I ensure that Ainova delivers real value and lasting impact for our clients.",
-    },
-    {
-      id: 3,
-      image: "/team3.png",
-      name: "Zsanna Simon",
-      designation: currentLanguage === 'de' ? 'Mitgründerin' : 'Co-Founder',
-      description: currentLanguage === 'de'
-        ? "Ich konzentriere mich auf die Entwicklung klarer Vertriebsstrategien und die Leitung unserer Finanzoperationen. Meine Priorität ist es, das Wachstum von Ainova sicherzustellen und gleichzeitig starke, vertrauensvolle Beziehungen zu unseren Kunden aufzubauen."
-        : "I focus on developing clear sales strategies and managing our finance operations. My priority is to ensure Ainova’s growth while building strong, trustworthy relationships with our clients.",
-    },
-  ];
+ const team = [
+  {
+    id: 1,
+    image: "/team1.png",
+    name: "Andre Graf",
+    designation: currentLanguage === 'de' ? 'Mitgründer' : 'Co-Founder',
+    description: currentLanguage === 'de' 
+      ? "Vertrauen und Kundenzufriedenheit sind für mich entscheidend. Bei Ainova entwickle ich einfache, zuverlässige und menschenzentrierte Lösungen, die Unternehmen beim sicheren Wachstum unterstützen."
+      : "Trust and customer satisfaction are my top priorities. At Ainova, I focus on creating reliable, simple, and human-centered solutions that help businesses grow with confidence.",
+  },
+  {
+    id: 2,
+    image: "/team2.png",
+    name: "Micha Eichenberger",
+    designation: currentLanguage === 'de' ? 'Mitgründer' : 'Co-Founder',
+    description: currentLanguage === 'de'
+      ? "Ich entwickle Lösungen, die einen echten Unterschied machen. Mit einem klaren Fokus auf Innovation und Effizienz stelle ich sicher, dass Ainova echten Mehrwert und langfristige Wirkung für unsere Kunden liefert."
+      : "I believe in building solutions that truly make a difference. With a strong focus on innovation and efficiency, I ensure that Ainova delivers real value and lasting impact for our clients.",
+  },
+  {
+    id: 3,
+    image: "/team3.png",
+    name: "Zsanna Simon",
+    designation: currentLanguage === 'de' ? 'Mitgründerin' : 'Co-Founder',
+    description: currentLanguage === 'de'
+      ? "Ich entwickle Vertriebsstrategien und leite unsere Finanzoperationen. Mein Ziel ist es, das Wachstum von Ainova zu sichern und dabei vertrauensvolle Beziehungen zu unseren Kunden zu pflegen."
+      : "I focus on developing clear sales strategies and managing our finance operations. My priority is to ensure Ainova’s growth while building strong, trustworthy relationships with our clients.",
+  },
+];
+
+
 
  const culture = [
   {
@@ -98,7 +100,7 @@ export default function TeamSection() {
         }s both`,
       }}
     >
-      <div className="relative w-full aspect-[4/3] bg-white sm:aspect-[16/10] overflow-hidden">
+      <div className="relative w-full aspect-[4/3] bg-white sm:aspect-[18/10] overflow-hidden">
         {member.image && (
           <Image
             src={member.image}
@@ -114,15 +116,15 @@ export default function TeamSection() {
 
       <div className="flex flex-col flex-1 px-5 py-2 sm:px-6 sm:py-6 gap-2">
         <div className="">
-          <h3 className="text-xl sm:text-2xl font-bold tracking-tight text-slate-900 mb-2">
+          <h3 className="text-xl sm:text-2xl font-bold tracking-tight text-slate-900 mb-1">
             {member.name}
           </h3>
-          <p className="text-sm sm:text-base font-semibold text-blue-600 mb-2">
+          <p className="text-sm sm:text-base font-semibold text-blue-600 mb-1">
             {member.designation}
           </p>
         </div>
 
-        <p className="text-sm leading-relaxed text-slate-600 line-clamp-4">
+        <p className="text-xs  md:text-sm w-full  text-slate-600  ">
           {member.description}
         </p>
       </div>
