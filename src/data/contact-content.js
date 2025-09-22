@@ -78,7 +78,7 @@ export const contactContent = {
       },
       response: {
         title: "Antwortzeit",
-        value: "Innerhalb von 2-4 Stunden",
+        value: "Antwortzeit innerhalb von 2-4 Stunden",
       },
     },
   },
