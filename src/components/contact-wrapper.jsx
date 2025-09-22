@@ -19,8 +19,7 @@ export default function ContactWrapper() {
           </h1>
           <p className="text-lg text-gray-600 mb-2">{content.subtitle}</p>
           <p className="text-gray-500">
-            Have questions? We’d love to hear from you.Send us a message and
-            we’ll respond as soon as possible.
+            {content.description}
           </p>
         </div>
 

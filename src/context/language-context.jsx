@@ -21,6 +21,7 @@ const translations = {
     services: "Services",
     aboutUs: "About Us",
     team: "Team",
+    HowItWorks:"How It Works",
     contactUs: "Contact Us",
     welcome: "Welcome to Our Website",
     description: "Your trusted partner for all your business needs",
@@ -28,6 +29,7 @@ const translations = {
   de: {
     home: "Startseite",
     services: "Dienstleistungen",
+    HowItWorks:"Wie es funktioniert",
     aboutUs: "Über uns",
     team: "Team",
     contactUs: "Kontakt",
