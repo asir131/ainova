@@ -3,8 +3,7 @@
 import FAQSection from "@/components/faq-section";
 import HeroSection from "@/components/hero-section";
 import HowItWorksSection from "@/components/how-it-works-section";
-import ServicesSection from "@/components/ServicesSection";
-import TestimonialsSection from "@/components/testimonials-section";
+
 import { useLanguage } from "@/context/language-context";
 import Image from "next/image";
 import { useRef } from "react"; // Import useRef
