@@ -26,22 +26,22 @@ export default function Footer({ language = "en" }) {
           <div className="space-y-6">
             <h3 className="text-lg font-semibold">{content.quickLinks}</h3>
             <nav className="space-y-3">
-              <Link href="/" className="block text-[#121D2E] hover:text-white transition-colors text-sm">
+              <Link href="/" className="block text-[#121D2E]  transition-colors text-sm">
                 {content.links.home}
               </Link>
-              <Link href="/how-it-works" className="block text-[#121D2E] hover:text-white transition-colors text-sm">
+              <Link href="/how-it-works" className="block text-[#121D2E]  transition-colors text-sm">
                 {content.links.howItWorks}
               </Link>
               {/* <a href="/services" className="block text-[#121D2E] hover:text-white transition-colors text-sm">
                 {content.links.services}
               </a> */}
-              <Link href="/team" className="block text-[#121D2E] hover:text-white transition-colors text-sm">
+              <Link href="/team" className="block text-[#121D2E]  transition-colors text-sm">
                 {content.links.team}
               </Link>
-              <Link href="/contact" className="block text-[#121D2E] hover:text-white transition-colors text-sm">
+              <Link href="/contact" className="block text-[#121D2E]  transition-colors text-sm">
                 {content.links.contactUs}
               </Link>
-              <Link href="/privacy" className="block text-[#121D2E] hover:text-white transition-colors text-sm">
+              <Link href="/privacy" className="block text-[#121D2E]  transition-colors text-sm">
                 {content.links.privacyPolicy}
               </Link>
             </nav>
